@@ -1,0 +1,24 @@
+# Dados locais e credenciais nunca devem entrar no repositorio
+.env
+.env.*
+!.env.example
+*.secret
+*.dpapi
+*.password
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
+*.sqlite*
+*.db
+*.jsonl
+settings.json*
+data/
+node_modules/
+tests/.tmp/
+docs/previews/
+AI Battery.exe
+*.lnk
+.vs/
+.idea/
